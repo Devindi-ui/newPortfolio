@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="nav-brand">
+            <span class="brand-text">Portfolio</span>
+          </div>
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="nav-sections">
+            <button class="theme-toggle" id="theme-toggle">
+              <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Hi I'm <span class="highlight">Panchali Devindi</span>
+            </h1>
+            <h2 class="hero-subtitle">Software Engineering Student</h2>
+            <p class="hero-description">
+              A passionate developer focused on creating innovative solutions
+              and expanding knowledge in software development. Currently
+              studying at Asia e University.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="hero-social">
+              <a href="https://github.com/Devindi-ui" class="social-link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="linkedin.com/in/panchali-devindi-818865363"
+                class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="mailto:panchalidevindi@gmail.com" class="social-link"
+                ><i class="fas fa-envelop"></i
+              ></a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="image-container">
+              <img src="assets/profile.jpg" alt="Panchali Devindi" />
+              <div class="image-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a Software Engineering student at Asia e University with a
+              passion for developing innovative software solutions. I enjoy
+              turning complex problems into simple, beautiful designs.
+            </p>
+            <p>
+              My journey in Software Development started 1 year ago, and since
+              then I've been constantly learning new technologies and
+              methodologies to improve my skills.
+            </p>
+            <div class="about-details">
+                <div class="detail-item">
+                    <span class="detail-label">Name</span>
+                    <span class="detail-value">Your Full Name</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Email</span>
+                    <span class="detail-value">panchalidevindi@gmail.com</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Age</span>
+                    <span class="detail-value">22 Years</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">From:</span>
+                    <span class="detail-value">Colombo, Sri Lanka</span>
+                </div>
+            </div>
+            <a href="#" class="btn btn-primary">Download CV</a>
+          </div>
+          <div class="about-stats">
+            <div class="stat-box">
+                <div class="stat-number" data-count="5">0</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" data-count="0">0</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" data-count="0">0</div>
+                <div class="stat-label">Happy Clients</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" data-count="0">0</div>
+                <div class="stat-label">Awards Received</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+     <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skills-column">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Web Development</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Java Script</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">React.js</span>
+                            <span class="skill-percentage">50%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percentage">0</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Database Design</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">UI/UX Design</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+     <!-- Projects Section -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-title">My Projects</div>
+          <div class="projects-filter">
+            <button class="filter-btn-active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="app">App Development</button>
+            <button class="filter-btn" data-filter="design">UI/UX Design</button>
+          </div>
+          <div class="projects-grid">
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img src="https://via.placeholder.com/400*250/222222/555555?text=Web+Project" alt="Project 1">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">E-Commerce Platform</h3>
+                <p class="project-description">A full stack e-commerce solution with Java Script.</p>
+                <div class="project-tech">
+                  <div class="tech-tag">React</div>
+                  <div class="tech-tag">Node.js</div>
+                  <div class="tech-tag">MongoDB</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card" data-category="app">
+              <div class="project-image">
+                <img src="https://via.placeholder.com/400*250/222222/555555?text=Mobile+App" alt="Project 2">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Expense-Tracker</h3>
+                <p class="project-description">A full stack e-commerce solution with Java Script.</p>
+                <div class="project-tech">
+                  <div class="tech-tag">React</div>
+                  <div class="tech-tag">Java Script</div>
+                  <div class="tech-tag">Firebase</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card" data-category="design">
+              <div class="project-image">
+                <img src="https://via.placeholder.com/400*250/222222/555555?text=UI+Design" alt="Project 3">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Bloomify Dashboard UI</h3>
+                <p class="project-description">A modern dashboard interface for flower business.</p>
+                <div class="project-tech">
+                  <div class="tech-tag">UI Design</div>
+                  <div class="tech-tag">CSS</div>
+                  <div class="tech-tag">Firebase</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
