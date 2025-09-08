@@ -50,6 +50,6 @@ document.addEventListener('DOMContentLoaded', function(){
         const nextTheme = themes[currentThemeIndex];
         
         // Remove all theme classes
-        body.classList.remove('default-theme', 'dark-blue-theme', 'dark-purple-theme', 'dark
-    })
+        body.classList.remove('default-theme', 'dark-blue-theme', 'dark-purple-theme', 'dark')
+    });
 })
